@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipe Website</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        .header{
+            height: 100px;
+            width: 100%;
+            background-color: black;
+            padding: 20px;
+            color: white;
+            display: flex;
+        }
+        .logo{
+            height: 60px;
+            width: 50%;
+            text-align: center;
+            font-size: 40px;
+            letter-spacing: 3px;
+        }
+        .navlist{
+            height: 60px;
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 35px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: orange;
+        }
+        .content{
+            height: fit-content;
+            width: 50%;
+            margin: auto;
+            box-shadow: 2px 2px 10px 5px grey;
+        }
+        img{
+            height: 150px;
+            width: 150px;
+            margin-top: 10px;
+        }
+        .upper{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .upper h2{
+            font-size: 36px;
+            font-weight: 600;
+        }
+        .lower{
+            padding-right: 80px;
+            padding-top: 15px;
+            padding-left: 70px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .lower h2{
+            font-size: 30px;
+            font-weight: 400;
+        }
+        .footer{
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 26px;
+        }
+        .lower h3{
+            text-align: end;
+        }
+        .button1{
+            height: 35px;
+            border-radius: 50px;
+            background-color: black;
+            color: white;
+        }
+        .button1:hover{
+            background-color: orange;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">Receipe</div>
+            <div class="navlist">
+                <h4><a href="#">Home</a></h4>
+                <h4><a href="#">About</a></h4>
+                <h4><a href="#">Contact</a></h4>
+            </div>
+        </div>
+        <br>
+        <div class="content">
+            <div class="upper">
+                <h2>Gulam Jamun</h2>
+                <img src="japan food.jpg" alt="food">
+            </div>
+            <div class="lower">
+                <h3>Rs. 100 Per Kg</h3>
+                <h2>Ingredients</h2>
+                <ul type="none">
+                    <li>Sugar</li>
+                    <li>Bread</li>
+                    <li>Oil</li>
+                </ul>
+                <br>
+                
+                <h2>Recipe</h2>
+                <ol>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae!</li>
+                </ol>
+                <br>
+                <input type="button" value="Buy Now" class="button1">
+            </div>
+        </div>
+        <br>
+        <!----
+        <div class="content">
+            <div class="upper">
+                <h2>Barfi Jamun</h2>
+                <img src="japan food.jpg" alt="food">
+            </div>
+            <div class="lower">
+                <h2>Ingredients</h2>
+                <ul type="none">
+                    <li>Sugar</li>
+                    <li>Bread</li>
+                    <li>Oil</li>
+                </ul>
+                <br>
+                <h2>Recipe</h2>
+                <ol>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae!</li>
+                </ol>
+            </div>
+        </div>
+        ---->
+        <div class="footer">
+            <h3>Copyright © Receipe Pvt Ltd 2023 All Rights Reserved</h3>
+        </div>
+    </div>
+</body>
+</html>
